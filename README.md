@@ -1,3 +1,6 @@
+sram_1024x8_t13.v
+sram_8192x8_t13.v
+
 # Systolic Array for Smith-Waterman
 This work implements the Smith-Waterman, a dynamic programming algorithm for performing local sequence alignment. The process can be accelerated through parallelism.  
 An architecture called systolic array was implemented to realize parallel computing, resulting the complexity to drop from O(mn) to O(m+n) where m and n is the length of reference genome and short read.By doing so, we decrease the execution time sharply.  
